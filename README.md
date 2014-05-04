@@ -11,14 +11,18 @@ This demo uses
 ## Running the demo
 
 * Run `bundle` to install all dependencies
-* Run `ruby app.rb` to start the app
-* Visit http://127.0.0.1:4567/ in your browser
+* Run `rackup` to start the app
+* Visit `http://127.0.0.1:9292/` in your browser
 * You will be redirected to PayPal
 * Login using the following credentials:
   * Username: `us-customer@commercefactory.org`
   * Password: `test1234`
 * Complete the payment instructions
-* You will receive a message that says "Payment completed"
+* You will receive a message that says __"Payment completed"__
 
 ## Running the test
+
+* Requirement: Firefox for Selenium
+* Run `bundle` to install all dependencies
+* Run `rspec spec` to test the app
 
