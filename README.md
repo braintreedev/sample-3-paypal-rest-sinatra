@@ -4,9 +4,9 @@
 
 This demo uses
 
-* Ruby 2.0 or higher
-* The Sinatra web framework
-* The PayPal Ruby REST SDK
+* Ruby 1.9.3 or higher
+* The [Sinatra](http://www.sinatrarb.com/) web framework
+* The [PayPal Ruby REST SDK](https://github.com/paypal/rest-api-sdk-ruby)
 
 ## Running the demo
 
@@ -22,7 +22,7 @@ This demo uses
 
 ## Running the test
 
-* Requirement: Firefox for Selenium
+* Requirement: [Firefox](http://getfirefox.com) for [Selenium](http://seleniumhq.org)
 * Run `bundle` to install all dependencies
-* Run `rspec spec` to test the app
+* Run `rake` to test the app
 
