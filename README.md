@@ -2,6 +2,10 @@
 
 [![Build Status](https://travis-ci.org/commercefactory/001-paypal-rest-sinatra-paypal-payment.svg?branch=master)](https://travis-ci.org/commercefactory/001-paypal-rest-sinatra-paypal-payment)
 
+This is an example of the PayPal REST API using the official Ruby SDK in Sinatra to make a PayPal payment.
+
+This branch includes a lot of files for the purpose of testing. To see a simplified example please switch to the [simplified](https://github.com/commercefactory/001-paypal-rest-sinatra-paypal-payment/tree/simplified) branch.
+
 ## Technology
 
 This demo uses
