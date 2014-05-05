@@ -1,7 +1,5 @@
 # Using the PayPal REST API in Sinatra to make a PayPal payment
 
-[![Build Status](https://travis-ci.org/commercefactory/001-paypal-rest-sinatra-paypal-payment.svg?branch=master)](https://travis-ci.org/commercefactory/001-paypal-rest-sinatra-paypal-payment)
-
 ## Technology
 
 This demo uses
@@ -13,7 +11,7 @@ This demo uses
 ## Running the demo
 
 * Run `bundle` to install all dependencies
-* Run `rackup` to start the app
+* Run `ruby app.rb` to start the app
 * Visit `http://127.0.0.1:9292/` in your browser
 * You will be redirected to PayPal
 * Login using the following credentials:
@@ -21,10 +19,3 @@ This demo uses
   * Password: `test1234`
 * Complete the payment instructions
 * You will receive a message that says __"Payment completed"__
-
-## Running the test
-
-* Requirement: [Firefox](http://getfirefox.com) for [Selenium](http://seleniumhq.org)
-* Run `bundle` to install all dependencies
-* Run `rake` to test the app
-
