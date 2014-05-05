@@ -16,7 +16,6 @@ describe 'A successful payment', js: true, type: :request do
 
     # confirm details
     expect(page).to have_content("Review your information")
-
     first("#continue_abovefold").click
 
     # check final page details
