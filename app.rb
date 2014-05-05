@@ -14,8 +14,8 @@ class Application < Sinatra::Base
         payment_method: "paypal"
       },
       redirect_urls: {
-        return_url: "http://127.0.0.1:9292/completed",
-        cancel_url: "http://127.0.0.1:9292/cancelled"
+        return_url: "#{request.url}/completed",
+        cancel_url: "#{request.url}/cancelled"
       },
       transactions: [
         {
