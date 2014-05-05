@@ -1,5 +1,7 @@
 # Using the PayPal REST API in Sinatra to make a PayPal payment
 
+[![Build Status](https://travis-ci.org/commercefactory/001-paypal-rest-sinatra-paypal-payment.svg?branch=master)](https://travis-ci.org/commercefactory/001-paypal-rest-sinatra-paypal-payment)
+
 ## Technology
 
 This demo uses
