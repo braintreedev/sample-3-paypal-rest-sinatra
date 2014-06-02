@@ -14,11 +14,9 @@ This demo uses
 * The [Sinatra](http://www.sinatrarb.com/) web framework
 * The [PayPal Ruby REST SDK](https://github.com/paypal/rest-api-sdk-ruby)
 
-## Running the demo
+## Demo
 
-* Run `bundle` to install all dependencies
-* Run `rackup` to start the app
-* Visit `http://127.0.0.1:9292/` in your browser
+* Visit [3.commercefactory.org](http://3.commercefactory.org)
 * You will be redirected to PayPal
 * Login using the following credentials:
   * Username: `us-customer@commercefactory.org`
@@ -26,9 +24,16 @@ This demo uses
 * Complete the payment instructions
 * You will receive a message that says __"Payment completed"__
 
+## Running the demo locally
+
+* Run `bundle` to install all dependencies
+* Run `rackup` to start the app
+* Visit `http://127.0.0.1:9292/` in your browser
+* You will be redirected to PayPal
+* Proceed as above
+
 ## Running the test
 
 * Requirement: [Firefox](http://getfirefox.com) for [Selenium](http://seleniumhq.org)
 * Run `bundle` to install all dependencies
 * Run `rake` to test the app
-
